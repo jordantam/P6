@@ -3,15 +3,15 @@
 using namespace std;
 
 int main() {
-	int a, b, c,d ;
+	int one, two, three, ans ;
 
 	cout << "insert number 1:" << endl;
-	cin >> a;
+	cin >> one;
 	cout << "insert number 2:" << endl;
-	cin >> b;
+	cin >> two;
 	cout <<"insert number 3:" << endl;
-	cin >>c;
-	d = a * b * c;
+	cin >>three;
+	ans = one * two * three;
 
 	cout <<"Number 1 * Number 2 * Number 3 = " << d << endl;
 
